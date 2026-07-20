@@ -138,3 +138,21 @@ footer {
     font-size: .92rem;
     margin-top: 38px;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .portfolio-card {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  /* и т.д. — подправь всё, что должно выглядеть компактно */
+}
